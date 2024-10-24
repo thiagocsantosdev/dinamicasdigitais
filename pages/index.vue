@@ -1,3 +1,4 @@
 <template>
         <HeroContainer/>
+        <About/>
 </template>

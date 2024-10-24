@@ -11,11 +11,15 @@
 
     header{
         padding: 20px;
+        position: fixed;
+        animation: SugirCimaPraBaixo 1s ease-in-out;
+        width: 100vw;
+        
+        backdrop-filter: blur(10px);
     }
 
     header h1{
         font-size: 1.2rem;
-        color: rgb(33, 33, 189);
         font-weight: 600;
     }
 
@@ -24,5 +28,19 @@
        
         
     }
+
+
+    @keyframes SugirCimaPraBaixo{
+            from{
+               transition: ease-in-out 1s;
+               transform: translateY(-100%)
+            }
+            to {
+                transform: translateY(0);
+                transition: ease-in-out 1s;
+            }
+    }
+
+  
 
 </style>
