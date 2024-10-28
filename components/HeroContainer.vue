@@ -23,6 +23,9 @@
 
 
 <style scoped>
+.container-slogan{
+    margin-top: 100px;
+}
     h1{
         font-size: 5rem;
         font-weight: 600;
@@ -94,6 +97,8 @@ button:nth-child(2){
 }
 
 
+
+
 @keyframes SugirDaEsquerda{
           from{
          
@@ -123,6 +128,9 @@ button:nth-child(2){
             opacity: 1;
         }
     }
+
+
+  
 
     
 </style>
